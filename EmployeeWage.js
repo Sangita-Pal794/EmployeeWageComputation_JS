@@ -1,4 +1,4 @@
-console.log("Welcome to EE Wage Computation Program")
+console.log("Welcome to EE Wage Computation Program");
 var isPresent=1
 var randomCheck=Math.floor(Math.random() * 10)%2
 if (isPresent == randomCheck)
