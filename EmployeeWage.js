@@ -3,7 +3,6 @@ const EE_WAGE_DETAILS = {
   FULL_TIME_HOURS: 8,
   PART_TIME_HOURS: 4,
 };
-
 Object.freeze = EE_WAGE_DETAILS;
 
 let getRandom = Math.floor(Math.random() * 3);
