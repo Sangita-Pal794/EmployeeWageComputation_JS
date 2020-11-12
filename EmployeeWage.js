@@ -9,4 +9,4 @@ let isEEPresent = () => getRandom === 1;
       
       let computeEEWage = () =>
         isEEPresent() ? EE_WAGE_DETAILS.wagePerHour * EE_WAGE_DETAILS.hoursPerDay : 0;
-        //console.log("End Of EE Wage Computation Program")
+        //console.log("End Of EE Wage Computation Program");
