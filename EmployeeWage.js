@@ -1,4 +1,3 @@
-console.log("Welcome to EE Wage Computation Program");
 const EE_WAGE_DETAILS = {
   WAGE_PER_HOUR: 20,
   FULL_TIME_HOURS: 8,
