@@ -1,7 +1,12 @@
 console.log("Welcome to EE Wage Computation Program");
-var isPresent=1
-var randomCheck=Math.floor(Math.random() * 10)%2
-if (isPresent == randomCheck)
-    console.log ("Employee is Present")
-else
-    console.log ("Employee is not Present");
+let getRandom = Math.floor(Math.random() * 2);
+let isEEPresent = () => getRandom === 1;
+        const EE_WAGE_DETAILS = {
+        wagePerHour: 20,
+        hoursPerDay: 8,
+      };
+      Object.freeze = EE_WAGE_DETAILS;
+      
+      let computeEEWage = () =>
+        isEEPresent() ? EE_WAGE_DETAILS.wagePerHour * EE_WAGE_DETAILS.hoursPerDay : 0;
+        //console.log("End Of EE Wage Computation Program");
